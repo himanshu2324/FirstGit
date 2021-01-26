@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="46679" started-at="2021-01-27T01:08:18 IST" finished-at="2021-01-27T01:09:04 IST">
+    <groups>
+    </groups>
+    <test name="test" duration-ms="46679" started-at="2021-01-27T01:08:18 IST" finished-at="2021-01-27T01:09:04 IST">
+      <class name="com.carnival.Testcases.TC_001_Carnival">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:com.carnival.Testcases.TC_001_Carnival@458c1321]" name="initialization" is-config="true" duration-ms="26454" started-at="2021-01-27T01:08:18 IST" finished-at="2021-01-27T01:08:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="initialization()[pri:0, instance:com.carnival.Testcases.TC_001_Carnival@458c1321]" name="initialization" is-config="true" duration-ms="26165" started-at="2021-01-27T01:08:18 IST" finished-at="2021-01-27T01:08:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="initialization()[pri:0, instance:com.carnival.Testcases.TC_001_Carnival@458c1321]" name="initialization" is-config="true" duration-ms="25856" started-at="2021-01-27T01:08:18 IST" finished-at="2021-01-27T01:08:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="initialization()[pri:0, instance:com.carnival.Testcases.TC_001_Carnival@458c1321]" name="initialization" is-config="true" duration-ms="26377" started-at="2021-01-27T01:08:18 IST" finished-at="2021-01-27T01:08:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="xyz()[pri:0, instance:com.carnival.Testcases.TC_001_Carnival@458c1321]" name="xyz" duration-ms="10" started-at="2021-01-27T01:08:44 IST" finished-at="2021-01-27T01:08:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xyz -->
+        <test-method status="PASS" signature="BrowserClose()[pri:0, instance:com.carnival.Testcases.TC_001_Carnival@458c1321]" name="BrowserClose" is-config="true" duration-ms="189" started-at="2021-01-27T01:08:44 IST" finished-at="2021-01-27T01:08:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserClose -->
+        <test-method status="PASS" signature="xyz()[pri:0, instance:com.carnival.Testcases.TC_001_Carnival@458c1321]" name="xyz" duration-ms="4" started-at="2021-01-27T01:08:44 IST" finished-at="2021-01-27T01:08:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xyz -->
+        <test-method status="PASS" signature="BrowserClose()[pri:0, instance:com.carnival.Testcases.TC_001_Carnival@458c1321]" name="BrowserClose" is-config="true" duration-ms="108" started-at="2021-01-27T01:08:44 IST" finished-at="2021-01-27T01:08:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserClose -->
+        <test-method status="FAIL" signature="switchWindow()[pri:0, instance:com.carnival.Testcases.TC_001_Carnival@458c1321]" name="switchWindow" duration-ms="20203" started-at="2021-01-27T01:08:44 IST" finished-at="2021-01-27T01:09:04 IST">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for url to contain "times". Current url: "https://www.google.co.in/" (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'HIMANSHU-PC', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\HIMANS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60765}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e5f9dcdc9a865f6712a90560c4bc245c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to contain "times". Current url: "https://www.google.co.in/" (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'HIMANSHU-PC', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\HIMANS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60765}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e5f9dcdc9a865f6712a90560c4bc245c
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
+at com.carnival.Testcases.TC_001_Carnival.switchWindow(TC_001_Carnival.java:86)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchWindow -->
+        <test-method status="PASS" signature="xyz()[pri:0, instance:com.carnival.Testcases.TC_001_Carnival@458c1321]" name="xyz" duration-ms="2" started-at="2021-01-27T01:08:44 IST" finished-at="2021-01-27T01:08:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xyz -->
+        <test-method status="PASS" signature="BrowserClose()[pri:0, instance:com.carnival.Testcases.TC_001_Carnival@458c1321]" name="BrowserClose" is-config="true" duration-ms="44" started-at="2021-01-27T01:08:44 IST" finished-at="2021-01-27T01:08:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserClose -->
+        <test-method status="FAIL" signature="BrowserClose()[pri:0, instance:com.carnival.Testcases.TC_001_Carnival@458c1321]" name="BrowserClose" is-config="true" duration-ms="19" started-at="2021-01-27T01:09:04 IST" finished-at="2021-01-27T01:09:04 IST">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[invalid session id
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'HIMANSHU-PC', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\HIMANS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60766}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 31310f1ce96991d0108366a4614affbf]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'HIMANSHU-PC', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\HIMANS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60766}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 31310f1ce96991d0108366a4614affbf
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:438)
+at com.carnival.base.CreateDriver.BrowserClose(CreateDriver.java:63)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:677)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:661)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserClose -->
+      </class> <!-- com.carnival.Testcases.TC_001_Carnival -->
+    </test> <!-- test -->
+  </suite> <!-- Suite -->
+</testng-results>
