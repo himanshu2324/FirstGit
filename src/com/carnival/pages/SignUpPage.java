@@ -9,6 +9,7 @@ public class SignUpPage {
 	
 
 	public void ClickOnCreateAccount() {
+
 		int test =123;
 
 	}
